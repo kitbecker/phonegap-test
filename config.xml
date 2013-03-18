@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mtibaths.m"
+        version   = "2.2.0">
+    <name>test app</name>
+
+    <description>
+        App to test forms
+    </description>
+
+    <author href="http://freebairn.com" email="kbecker@freebairn.com">
+        Freebairn and Company
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+	<preference name="prerendered-icon" value="false" />
+	<preference name="stay-in-webview" value="true" />
+
+    <icon src="icon.png" width="128" height="128" />
+    <icon src="icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+    <icon src="icon-64.png" gap:platform="webos" />
+
+    <gap:splash src="screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024" />
+    <gap:splash src="screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
+	
+</widget>
